@@ -21,6 +21,7 @@ public class Main {
         //RECORRIDO DE LA LISTA Y MUESTRA DE LA INFORMACION DE CADA PRODUCTO
         for (ProductoOficina producto : productos) {
             System.out.println(producto);
+            //LA CLASE TAMBIEN PUEDE MOSTRARSE ASI: System.out.println(producto.getClass())
         }
 
         for (ProductoOficina producto : productos) {
